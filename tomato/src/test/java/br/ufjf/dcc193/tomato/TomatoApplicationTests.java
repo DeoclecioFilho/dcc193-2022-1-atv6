@@ -1,0 +1,13 @@
+package br.ufjf.dcc193.tomato;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class TomatoApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
