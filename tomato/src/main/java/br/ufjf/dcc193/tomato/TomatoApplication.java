@@ -11,5 +11,4 @@ public class TomatoApplication {
 		SpringApplication.run(TomatoApplication.class, args);
 		System.out.println("Deu certo!");
 	}
-
 }
