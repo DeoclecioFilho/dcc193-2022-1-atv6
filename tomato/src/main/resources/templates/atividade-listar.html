@@ -14,8 +14,9 @@
             <tbody>
                 <tr th:each="atividade:${atividades}" th:object=${atividade}>
                     <td><a href="@{./editar/{id}(id=*{id})}" th:text = "*{id}"></a></td>
-                    <td th:text="${atividade.titulo}"></td>
-                    <td th:text="${atividade.tomatos"></td>
+                    <td th:text="*{atividade.titulo}"></td>
+                    <td th:text="*{atividade.tomatos"></td>
+                    <td><a href="@{./excluir/{id}(id=*{id})}">EXCLUIR</a></td>
                 </tr>
             </tbody>
         </table>
