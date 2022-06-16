@@ -50,6 +50,7 @@ public class AtividadeController {
      return mv;
     }
     
+    
     @PostMapping("/nova.html")
     public ModelAndView criar(Atividade atividade) {
       ModelAndView mv = new ModelAndView();
