@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 import java.util.List;
 import javax.validation.Valid;
@@ -25,7 +26,7 @@ public class AtividadeController {
     return "atividade-index";
   }
 /*
-  @RequestMapping(value = "/atividade/nova.html", method = RequestMethod.GET)
+  @RequestMapping(value = "/nova.html", method = RequestMethod.GET)
   public ModelAndView criar() {
     ModelAndView mv = new ModelAndView();
     mv.setViewName("atividade-form");
@@ -33,7 +34,7 @@ public class AtividadeController {
     return mv;
   }
 
-  @RequestMapping(value = "/atividade/nova.html", method = RequestMethod.POST)
+  @RequestMapping(value = "/nova.html", method = RequestMethod.POST)
   public ModelAndView criar(Atividade atividade) {
     ModelAndView mv = new ModelAndView();
     mv.setViewName("redirect:listar.html");
@@ -42,11 +43,12 @@ public class AtividadeController {
     return mv;
   }
 */
-   @GetMapping("/nova.html")
-   public ModelAndView criar() {
+ 
+ @GetMapping("/nova.html")
+ public ModelAndView criar() {
      ModelAndView mv = new ModelAndView();
      mv.setViewName("atividade-form");
-     mv.addObject("atividade", new Atividade(null, null, null));
+     mv.addObject("atividade", new Atividade());
      return mv;
     }
     
@@ -59,6 +61,7 @@ public class AtividadeController {
       mv.addObject("atividade", atividade);
       return mv;
     }
+    
     
    
   @GetMapping("/listar.html")
