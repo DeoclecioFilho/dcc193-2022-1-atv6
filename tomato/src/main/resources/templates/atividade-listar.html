@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt" xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Listar</title>
+    </head>
+    <body>
+        <html><br><b> <h2>Atividade: Listar</h2> <br><br></html>
+        <table>
+            <thead>
+                <tr> <th>ID</th> <th>TÍTULO</th> <th>TOMATOS</th></tr>
+            </thead>
+            <tbody>
+                <tr th:each="atividade:${atividades}" th:object=${atividade}>
+                    <td><a href="@{./editar/{id}(id=*{id})}" th:text = "*{id}"></a></td>
+                    <td th:text="${atividade.titulo}"></td>
+                    <td th:text="${atividade.tomatos"></td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
