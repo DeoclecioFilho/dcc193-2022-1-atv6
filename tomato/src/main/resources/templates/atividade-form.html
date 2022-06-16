@@ -13,9 +13,9 @@
         <label>TITULO: <input type="text" th:field="*{titulo}" /> </label>
         <strong th:if="${#fields.hasErrors('titulo')}" th:errors="*{titulo}"></strong>
 
-        <label>TOMATOS: <input type="number" th:field="*{tomatos}" /> </label>
+        <label>TOMATOS: <input type="number" min="0" th:field="*{tomatos}" /> </label>
         <strong th:if="${#fields.hasErrors('tomatos')}" th:errors="*{tomatos}"></strong>
-        
+
         <input type="submit" />
         <input type="reset" />
     </form>
