@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt" xmlns:th="http://www.thymeleaf.org/">
+    <head>
+        <meta charset="UTF-8">
+        <title>Usuario: Nova</title>
+    </head>
+    <body>
+      <html>Atividade: Nova</html>
+      <form th:action="@{../editar/{id}(id=*{id})}" th:object="${usuario}" method="POST">
+        <input type="hidden" th:field="*{id}"/>
+        <label>Nome: <input type="text" th:field="*{nome}"/></label>
+        <strong th:if="${#fields.hasErrors('nome')}"
+        th:errors="*{nome}"></strong>
+        <label>password: <input type="password" th:field="*{password}"/></label>
+        <strong th:if="${#fields.hasErrors('password')}"
+        th:errors="*{password}"></strong>
+        <input type="submit"/>
+        <input type="reset"/>
+    </form>
+    </body>
+</html>

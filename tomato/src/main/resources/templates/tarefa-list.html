@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarefas</title>
+  </head>
+  <body>
+    <h1>Tarefas</h1>
+    <table>
+      <tr>
+        <th>ID</th>
+        <th>Título</th>
+        <th>Tomatos</th>
+        <th>Ações</th>
+      </tr>
+      <tr th:each="tarefa: ${tarefas}" th:object="${tarefa}">
+        <td th:text="${tarefa.id}"></td>
+        <td th:text="${tarefa.titulo}"></td>
+        <td th:text="${tarefa.tomatos}"></td>
+        <td><a th:href="@{./editar/{id}(id=*{id})}">Editar</a></td>
+        <td><a th:href="@{./excluir/{id}(id=*{id})}">X</a></td>
+
+      </tr>
+    </table>
+  </body>
+</html>
