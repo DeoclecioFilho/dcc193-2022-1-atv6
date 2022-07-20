@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt" xmlns:th="http://www.thymeleaf.org">
+
+    <head th:replace="layout-padrao::head(titulo='Página não encontrada')"></head>
+
+<body>
+    <header th:replace="layout-padrao::header(titulo='Página não encontrada')"></header>
+    <div class="erro">
+        <h1>Erro: <span th:text="${status}"></span></h1>
+       <p>A página que você solicitou não pode ser encontrada neste servidor</p>
+    </div>
+</body>
+</html>

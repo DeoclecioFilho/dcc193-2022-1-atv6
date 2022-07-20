@@ -2,7 +2,8 @@
 <html lang="pt" xmlns:th="http://www.thymeleaf.org">
   <head th:replace="Layout-padrao::head (titulo='Listar Tarefas')"/>
   <body>
-    <h1>Usuarios</h1>
+    <header th:replace="layout-padrao::header(titulo='Listar Tarefas')"></header>
+    <nav th:replace="tarefa-index::acoes"></nav>
     <table>
       <tr>
         <th>ID</th>
@@ -14,7 +15,6 @@
         <td th:text="*{nome}"></td>
         <td><a th:href="@{./editar/{id}(id=*{id})}">Editar</a></td>
         <td><a th:href="@{./excluir/{id}(id=*{id})}">X</a></td>
-
       </tr>
     </table>
   </body>
