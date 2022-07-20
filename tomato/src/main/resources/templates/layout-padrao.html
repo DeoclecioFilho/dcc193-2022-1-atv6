@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt" xmlns:th="http://www.thymeleaf.org">
+<head th:fragment = "head(titulo)">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title th:text='${"Tarefeito: "+titulo}'>Tarefeito:Layout-padrao</title>
+    <link rel="stylesheet" th:href="@{/styles.css}">
+</head>
+<body>
+    <header th:fragment = "header(titulo)">
+        <h1>Tarefeito</h1>
+        <h2 th:text="${titulo}">Layout Padrão</h2>
+        <nav>
+            <ul>
+                <li> <a th:href="@{/tarefa/index.html}">Tarefas</a></li>
+                <li> <a th:href="@{/usuario/index.html}"></a>Usuarios</li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

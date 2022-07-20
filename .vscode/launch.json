@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-TarefeitotomatoApplication<tomato>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "br.ufjf.dcc193.tomato.TarefeitotomatoApplication",
+            "projectName": "tomato",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TomatoApplication<tomato>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "br.ufjf.dcc193.tomato.TomatoApplication",
+            "projectName": "tomato",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

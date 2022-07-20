@@ -1,0 +1,17 @@
+body{
+    max-width: 600px;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+nav>ul{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li{
+    margin: 0;
+    padding: 5px;
+}
