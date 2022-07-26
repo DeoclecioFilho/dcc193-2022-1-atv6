@@ -14,7 +14,7 @@
         </div>
         <div>
             <label for="tomatos">Tomatos</label>
-            <input type="number" id="tomatos" th:field="*{tomatos}"> 
+            <input type="number" id="tomatos" th:field="*{tomatos}" min="0"> 
             <strong th:if="${#fields.hasErrors('tomatos')}" th:errors="*{tomatos}"></strong>
         </div>
         <div> <input type="submit"> </div>
