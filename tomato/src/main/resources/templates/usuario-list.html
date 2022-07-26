@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt" xmlns:th="http://www.thymeleaf.org">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <head th:replace="layout-padrao::head('Lista usuarios')"></head>
+  <head th:replace="layout-padrao::head('Listar Usuários')"></head>
 
   <body>
-    <nav th:replace="usuario-index::acoes"></nav>
+  
+    <header th:replace="layout-padrao::header('Listar Usuários')"></header>
+    <nav th:replace="tarefa-index::acoes"></nav>
     <table>
       <tr>
         <th>ID</th>
@@ -20,3 +22,4 @@
     </table>
   </body>
 </html>
+ 

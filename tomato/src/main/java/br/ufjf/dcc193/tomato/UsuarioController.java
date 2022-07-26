@@ -40,7 +40,7 @@ public class UsuarioController {
     public ModelAndView index() {
         // return "Usuario controller";
         ModelAndView mv = new ModelAndView("usuario-index");
-        mv.addObject("mensagem", "Olá mundo");
+        // mv.addObject("mensagem", "Olá mundo");
         // return "Usuario-index";
         return mv;
     }
@@ -75,7 +75,7 @@ public class UsuarioController {
         }
         repo.save(t);
         mv.addObject("usuario", t);
-        mv.setViewName("redirect:listar");
+        mv.setViewName("redirect:listar.html");
         return mv;
     }
 

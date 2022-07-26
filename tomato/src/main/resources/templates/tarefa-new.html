@@ -4,7 +4,7 @@
     <head th:replace="layout-padrao::head('nova Tarefa')"></head>
 
 <body>
-    <header th:replace="layout-padrao::header(titulo='Tarefas')"></header>
+    <header th:replace="layout-padrao::header(titulo='Criar Tarefas')"></header>
     <nav th:replace="tarefa-index::acoes"></nav>
     <form th:action="@{nova.html}" method="post" th:object="${tarefa}">
         <div>

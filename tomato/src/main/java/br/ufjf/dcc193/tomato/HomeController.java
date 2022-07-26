@@ -44,7 +44,7 @@ public class HomeController {
     public ModelAndView index() {
         // return "Tarefa controller";
         ModelAndView mv = new ModelAndView("tarefa-index");
-        mv.addObject("mensagem", "Olá mundo");
+        // mv.addObject("mensagem", "Olá mundo");
         // return "tarefa-index";
         return mv;
     }

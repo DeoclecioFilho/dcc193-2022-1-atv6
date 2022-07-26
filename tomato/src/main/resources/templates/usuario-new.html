@@ -4,6 +4,7 @@
     <head th:replace="layout-padrao::head('Novo usuario')"></head>
 
 <body>
+    <header th:replace="layout-padrao::header('Novo Usuário')"></header>
     <nav th:replace="usuario-index::acoes"></nav>
     <form th:action="@{nova.html}" method="post" th:object="${usuario}">
         <div>
