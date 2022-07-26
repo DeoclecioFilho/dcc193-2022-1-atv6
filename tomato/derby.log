@@ -1,20 +1,20 @@
 ----------------------------------------------------------------
-Tue Jul 19 21:51:11 BRT 2022:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0182-1916-59a4-0000019f7bf8 
-on database directory /ice/dcc193/dcc193-2022-1-atv6-DeoclecioFilho/tomato/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
-Loaded from file:/ice/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+Tue Jul 26 11:39:24 BRT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0182-3af2-beb9-00000115aef0 
+on database directory C:\Users\deocl\Documents\SI\2022-1\dcc193-webII\Atv6\dcc193-2022-1-atv6-DeoclecioFilho\tomato\target\database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6bc168e5 
+Loaded from file:/C:/Users/deocl/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
 java.vendor=Eclipse Adoptium
 java.runtime.version=17.0.3+7
-user.dir=/ice/dcc193/dcc193-2022-1-atv6-DeoclecioFilho/tomato
-os.name=Linux
+user.dir=C:\Users\deocl\Documents\SI\2022-1\dcc193-webII\Atv6\dcc193-2022-1-atv6-DeoclecioFilho\tomato
+os.name=Windows 10
 os.arch=amd64
-os.version=5.13.0-40-generic
+os.version=10.0
 derby.system.home=null
 Database Class Loader started - derby.database.classpath=''
 ----------------------------------------------------------------
-Tue Jul 19 21:51:46 BRT 2022:
-Shutting down instance a816c00e-0182-1916-59a4-0000019f7bf8 on database directory /ice/dcc193/dcc193-2022-1-atv6-DeoclecioFilho/tomato/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
-Tue Jul 19 21:51:47 BRT 2022 Thread[Thread-20,5,main] Cleanup action starting
+Tue Jul 26 11:57:28 BRT 2022:
+Shutting down instance a816c00e-0182-3af2-beb9-00000115aef0 on database directory C:\Users\deocl\Documents\SI\2022-1\dcc193-webII\Atv6\dcc193-2022-1-atv6-DeoclecioFilho\tomato\target\database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6bc168e5 
+Tue Jul 26 11:57:28 BRT 2022 Thread[Thread-19,5,main] Cleanup action starting
 ERROR XBM0I: Directory target/database.db cannot be removed.
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
@@ -34,7 +34,7 @@ ERROR XBM0I: Directory target/database.db cannot be removed.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.base/java.lang.Thread.run(Unknown Source)
 Cleanup action completed
-Tue Jul 19 21:51:47 BRT 2022 Thread[Thread-20,5,main] Cleanup action starting
+Tue Jul 26 11:57:28 BRT 2022 Thread[Thread-19,5,main] Cleanup action starting
 ERROR XBM0I: Directory target/database.db cannot be removed.
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
@@ -55,22 +55,22 @@ ERROR XBM0I: Directory target/database.db cannot be removed.
 	at java.base/java.lang.Thread.run(Unknown Source)
 Cleanup action completed
 ----------------------------------------------------------------
-Tue Jul 19 21:51:48 BRT 2022:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance b5a2c0d3-0182-1916-59a4-0000019f7bf8 
-on database directory /ice/dcc193/dcc193-2022-1-atv6-DeoclecioFilho/tomato/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
-Loaded from file:/ice/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+Tue Jul 26 11:57:33 BRT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 80840021-0182-3af2-beb9-00000115aef0 
+on database directory C:\Users\deocl\Documents\SI\2022-1\dcc193-webII\Atv6\dcc193-2022-1-atv6-DeoclecioFilho\tomato\target\database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6bc168e5 
+Loaded from file:/C:/Users/deocl/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
 java.vendor=Eclipse Adoptium
 java.runtime.version=17.0.3+7
-user.dir=/ice/dcc193/dcc193-2022-1-atv6-DeoclecioFilho/tomato
-os.name=Linux
+user.dir=C:\Users\deocl\Documents\SI\2022-1\dcc193-webII\Atv6\dcc193-2022-1-atv6-DeoclecioFilho\tomato
+os.name=Windows 10
 os.arch=amd64
-os.version=5.13.0-40-generic
+os.version=10.0
 derby.system.home=null
 Database Class Loader started - derby.database.classpath=''
 ----------------------------------------------------------------
-Tue Jul 19 22:34:27 BRT 2022:
-Shutting down instance b5a2c0d3-0182-1916-59a4-0000019f7bf8 on database directory /ice/dcc193/dcc193-2022-1-atv6-DeoclecioFilho/tomato/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
-Tue Jul 19 22:34:28 BRT 2022 Thread[Thread-45,5,main] Cleanup action starting
+Tue Jul 26 11:58:16 BRT 2022:
+Shutting down instance 80840021-0182-3af2-beb9-00000115aef0 on database directory C:\Users\deocl\Documents\SI\2022-1\dcc193-webII\Atv6\dcc193-2022-1-atv6-DeoclecioFilho\tomato\target\database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6bc168e5 
+Tue Jul 26 11:58:17 BRT 2022 Thread[Thread-34,5,main] Cleanup action starting
 ERROR XBM0I: Directory target/database.db cannot be removed.
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
@@ -90,7 +90,7 @@ ERROR XBM0I: Directory target/database.db cannot be removed.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.base/java.lang.Thread.run(Unknown Source)
 Cleanup action completed
-Tue Jul 19 22:34:28 BRT 2022 Thread[Thread-45,5,main] Cleanup action starting
+Tue Jul 26 11:58:17 BRT 2022 Thread[Thread-34,5,main] Cleanup action starting
 ERROR XBM0I: Directory target/database.db cannot be removed.
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
@@ -111,22 +111,22 @@ ERROR XBM0I: Directory target/database.db cannot be removed.
 	at java.base/java.lang.Thread.run(Unknown Source)
 Cleanup action completed
 ----------------------------------------------------------------
-Tue Jul 19 22:34:28 BRT 2022:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 140200f0-0182-1916-59a4-0000019f7bf8 
-on database directory /ice/dcc193/dcc193-2022-1-atv6-DeoclecioFilho/tomato/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
-Loaded from file:/ice/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+Tue Jul 26 11:58:19 BRT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 20e1c02b-0182-3af2-beb9-00000115aef0 
+on database directory C:\Users\deocl\Documents\SI\2022-1\dcc193-webII\Atv6\dcc193-2022-1-atv6-DeoclecioFilho\tomato\target\database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6bc168e5 
+Loaded from file:/C:/Users/deocl/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
 java.vendor=Eclipse Adoptium
 java.runtime.version=17.0.3+7
-user.dir=/ice/dcc193/dcc193-2022-1-atv6-DeoclecioFilho/tomato
-os.name=Linux
+user.dir=C:\Users\deocl\Documents\SI\2022-1\dcc193-webII\Atv6\dcc193-2022-1-atv6-DeoclecioFilho\tomato
+os.name=Windows 10
 os.arch=amd64
-os.version=5.13.0-40-generic
+os.version=10.0
 derby.system.home=null
 Database Class Loader started - derby.database.classpath=''
 ----------------------------------------------------------------
-Tue Jul 19 22:42:30 BRT 2022:
-Shutting down instance 140200f0-0182-1916-59a4-0000019f7bf8 on database directory /ice/dcc193/dcc193-2022-1-atv6-DeoclecioFilho/tomato/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
-Tue Jul 19 22:42:30 BRT 2022 Thread[Thread-60,5,main] Cleanup action starting
+Tue Jul 26 11:58:47 BRT 2022:
+Shutting down instance 20e1c02b-0182-3af2-beb9-00000115aef0 on database directory C:\Users\deocl\Documents\SI\2022-1\dcc193-webII\Atv6\dcc193-2022-1-atv6-DeoclecioFilho\tomato\target\database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6bc168e5 
+Tue Jul 26 11:58:48 BRT 2022 Thread[Thread-49,5,main] Cleanup action starting
 ERROR XBM0I: Directory target/database.db cannot be removed.
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
@@ -146,7 +146,7 @@ ERROR XBM0I: Directory target/database.db cannot be removed.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.base/java.lang.Thread.run(Unknown Source)
 Cleanup action completed
-Tue Jul 19 22:42:30 BRT 2022 Thread[Thread-60,5,main] Cleanup action starting
+Tue Jul 26 11:58:48 BRT 2022 Thread[Thread-49,5,main] Cleanup action starting
 ERROR XBM0I: Directory target/database.db cannot be removed.
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
@@ -167,22 +167,22 @@ ERROR XBM0I: Directory target/database.db cannot be removed.
 	at java.base/java.lang.Thread.run(Unknown Source)
 Cleanup action completed
 ----------------------------------------------------------------
-Tue Jul 19 22:42:31 BRT 2022:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance e66540fa-0182-1916-59a4-0000019f7bf8 
-on database directory /ice/dcc193/dcc193-2022-1-atv6-DeoclecioFilho/tomato/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
-Loaded from file:/ice/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+Tue Jul 26 11:58:51 BRT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 41588035-0182-3af2-beb9-00000115aef0 
+on database directory C:\Users\deocl\Documents\SI\2022-1\dcc193-webII\Atv6\dcc193-2022-1-atv6-DeoclecioFilho\tomato\target\database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6bc168e5 
+Loaded from file:/C:/Users/deocl/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
 java.vendor=Eclipse Adoptium
 java.runtime.version=17.0.3+7
-user.dir=/ice/dcc193/dcc193-2022-1-atv6-DeoclecioFilho/tomato
-os.name=Linux
+user.dir=C:\Users\deocl\Documents\SI\2022-1\dcc193-webII\Atv6\dcc193-2022-1-atv6-DeoclecioFilho\tomato
+os.name=Windows 10
 os.arch=amd64
-os.version=5.13.0-40-generic
+os.version=10.0
 derby.system.home=null
 Database Class Loader started - derby.database.classpath=''
 ----------------------------------------------------------------
-Tue Jul 19 22:50:25 BRT 2022:
-Shutting down instance e66540fa-0182-1916-59a4-0000019f7bf8 on database directory /ice/dcc193/dcc193-2022-1-atv6-DeoclecioFilho/tomato/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
-Tue Jul 19 22:50:26 BRT 2022 Thread[Thread-75,5,main] Cleanup action starting
+Tue Jul 26 11:59:10 BRT 2022:
+Shutting down instance 41588035-0182-3af2-beb9-00000115aef0 on database directory C:\Users\deocl\Documents\SI\2022-1\dcc193-webII\Atv6\dcc193-2022-1-atv6-DeoclecioFilho\tomato\target\database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6bc168e5 
+Tue Jul 26 11:59:11 BRT 2022 Thread[Thread-64,5,main] Cleanup action starting
 ERROR XBM0I: Directory target/database.db cannot be removed.
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
@@ -202,7 +202,7 @@ ERROR XBM0I: Directory target/database.db cannot be removed.
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.base/java.lang.Thread.run(Unknown Source)
 Cleanup action completed
-Tue Jul 19 22:50:26 BRT 2022 Thread[Thread-75,5,main] Cleanup action starting
+Tue Jul 26 11:59:11 BRT 2022 Thread[Thread-64,5,main] Cleanup action starting
 ERROR XBM0I: Directory target/database.db cannot be removed.
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
@@ -223,127 +223,15 @@ ERROR XBM0I: Directory target/database.db cannot be removed.
 	at java.base/java.lang.Thread.run(Unknown Source)
 Cleanup action completed
 ----------------------------------------------------------------
-Tue Jul 19 22:50:26 BRT 2022:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance cb76c10e-0182-1916-59a4-0000019f7bf8 
-on database directory /ice/dcc193/dcc193-2022-1-atv6-DeoclecioFilho/tomato/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
-Loaded from file:/ice/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+Tue Jul 26 11:59:15 BRT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 61e8403f-0182-3af2-beb9-00000115aef0 
+on database directory C:\Users\deocl\Documents\SI\2022-1\dcc193-webII\Atv6\dcc193-2022-1-atv6-DeoclecioFilho\tomato\target\database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6bc168e5 
+Loaded from file:/C:/Users/deocl/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
 java.vendor=Eclipse Adoptium
 java.runtime.version=17.0.3+7
-user.dir=/ice/dcc193/dcc193-2022-1-atv6-DeoclecioFilho/tomato
-os.name=Linux
+user.dir=C:\Users\deocl\Documents\SI\2022-1\dcc193-webII\Atv6\dcc193-2022-1-atv6-DeoclecioFilho\tomato
+os.name=Windows 10
 os.arch=amd64
-os.version=5.13.0-40-generic
-derby.system.home=null
-Database Class Loader started - derby.database.classpath=''
-----------------------------------------------------------------
-Tue Jul 19 22:53:17 BRT 2022:
-Shutting down instance cb76c10e-0182-1916-59a4-0000019f7bf8 on database directory /ice/dcc193/dcc193-2022-1-atv6-DeoclecioFilho/tomato/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
-Tue Jul 19 22:53:17 BRT 2022 Thread[Thread-90,5,main] Cleanup action starting
-ERROR XBM0I: Directory target/database.db cannot be removed.
-	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
-	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
-	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
-	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
-	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
-	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
-	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
-	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
-	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
-	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
-	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
-	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
-	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
-	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.base/java.lang.Thread.run(Unknown Source)
-Cleanup action completed
-Tue Jul 19 22:53:17 BRT 2022 Thread[Thread-90,5,main] Cleanup action starting
-ERROR XBM0I: Directory target/database.db cannot be removed.
-	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
-	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
-	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
-	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
-	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
-	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
-	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
-	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
-	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
-	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
-	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
-	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
-	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
-	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.base/java.lang.Thread.run(Unknown Source)
-Cleanup action completed
-----------------------------------------------------------------
-Tue Jul 19 22:53:18 BRT 2022:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance de250118-0182-1916-59a4-0000019f7bf8 
-on database directory /ice/dcc193/dcc193-2022-1-atv6-DeoclecioFilho/tomato/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
-Loaded from file:/ice/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
-java.vendor=Eclipse Adoptium
-java.runtime.version=17.0.3+7
-user.dir=/ice/dcc193/dcc193-2022-1-atv6-DeoclecioFilho/tomato
-os.name=Linux
-os.arch=amd64
-os.version=5.13.0-40-generic
-derby.system.home=null
-Database Class Loader started - derby.database.classpath=''
-----------------------------------------------------------------
-Tue Jul 19 22:55:54 BRT 2022:
-Shutting down instance de250118-0182-1916-59a4-0000019f7bf8 on database directory /ice/dcc193/dcc193-2022-1-atv6-DeoclecioFilho/tomato/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
-Tue Jul 19 22:55:55 BRT 2022 Thread[Thread-105,5,main] Cleanup action starting
-ERROR XBM0I: Directory target/database.db cannot be removed.
-	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
-	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
-	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
-	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
-	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
-	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
-	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
-	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
-	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
-	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
-	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
-	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
-	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
-	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.base/java.lang.Thread.run(Unknown Source)
-Cleanup action completed
-Tue Jul 19 22:55:55 BRT 2022 Thread[Thread-105,5,main] Cleanup action starting
-ERROR XBM0I: Directory target/database.db cannot be removed.
-	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
-	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
-	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
-	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
-	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
-	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
-	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
-	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
-	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
-	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
-	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
-	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
-	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
-	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.base/java.lang.Thread.run(Unknown Source)
-Cleanup action completed
-----------------------------------------------------------------
-Tue Jul 19 22:55:56 BRT 2022:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance b0ec4122-0182-1916-59a4-0000019f7bf8 
-on database directory /ice/dcc193/dcc193-2022-1-atv6-DeoclecioFilho/tomato/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
-Loaded from file:/ice/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
-java.vendor=Eclipse Adoptium
-java.runtime.version=17.0.3+7
-user.dir=/ice/dcc193/dcc193-2022-1-atv6-DeoclecioFilho/tomato
-os.name=Linux
-os.arch=amd64
-os.version=5.13.0-40-generic
+os.version=10.0
 derby.system.home=null
 Database Class Loader started - derby.database.classpath=''

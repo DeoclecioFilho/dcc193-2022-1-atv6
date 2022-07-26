@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt" xmlns:th="http://www.thymeleaf.org/">
-    <head>
-        <meta charset="UTF-8">
-        <title>Atividade: Nova</title>
-    </head>
-    <body>
-      <html>Atividade: Nova</html>
+<html lang="pt" xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="layout-padrao::head('Editar Tarefa')"></head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+    <header th:replace="layout-padrao::header(titulo='Tarefas')"></header>
+    <nav th:replace="tarefa-index::acoes"></nav>
       <form th:action="@{../editar/{id}(id=*{id})}" th:object="${tarefa}" method="POST">
         <input type="hidden" th:field="*{id}"/>
         <label>Título: <input type="text" th:field="*{titulo}"/></label>

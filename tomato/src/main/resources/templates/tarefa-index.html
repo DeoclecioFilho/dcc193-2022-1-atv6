@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt" xmlns:th="http://www.thymeleaf.org">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <head th:replace="layout-padrao::head(titulo='Tarefas')"/>
 <body>
     <header th:replace="layout-padrao::header(titulo='Tarefas')"/></header>
     <p th:t></p>
     
-    <h1>Tarefas</h1>
     <p th:text="${mensagem}"></p>
     <nav th:fragment="acoes">
         <ul>

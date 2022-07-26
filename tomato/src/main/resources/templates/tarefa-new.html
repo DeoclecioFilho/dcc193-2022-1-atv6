@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt" xmlns:th="http://www.thymeleaf.org">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nova Tarefa</title>
-</head>
+    <head th:replace="layout-padrao::head('nova Tarefa')"></head>
+
 <body>
-    <h1>Nova Tarefa</h1>
+    <header th:replace="layout-padrao::header(titulo='Tarefas')"></header>
+    <nav th:replace="tarefa-index::acoes"></nav>
     <form th:action="@{nova.html}" method="post" th:object="${tarefa}">
         <div>
             <label for="titulo">Título</label>
