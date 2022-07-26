@@ -8,8 +8,7 @@
 </head>
 
 <body>
-  <html><br><b> <h2>Atividade: Nova</h2> <br><br></html>
-
+  <html>Atividade: Nova</html>
     <form th:action="@{nova.html}" th:object="${atividade}" method="POST">
         <label>Título: <input type="text" th:field="*{titulo}"/></label>
         <strong th:if="${#fields.hasErros('titulo')}"

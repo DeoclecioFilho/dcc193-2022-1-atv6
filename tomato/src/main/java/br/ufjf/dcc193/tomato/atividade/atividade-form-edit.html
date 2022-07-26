@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <html><br><b> <h2>Atividade: Editar</h2> <br><br></html>
+  <html>Atividade: Editar</html>
 
     <form th:action="@{../editar/{id}(id=*{id})}" th:object="${tarefa}" method="POST">
         <input type="hidden" th:field="*{id}"/>
