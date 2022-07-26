@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt" xmlns:th="http://www.thymeleaf.org">
-  <head th:replace="Layout-padrao::head (titulo='Listar Tarefas')"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head th:replace="layout-padrao::head('Lista usuarios')"></head>
+
   <body>
-    <header th:replace="layout-padrao::header(titulo='Listar Tarefas')"></header>
-    <nav th:replace="tarefa-index::acoes"></nav>
+    <nav th:replace="usuario-index::acoes"></nav>
     <table>
       <tr>
         <th>ID</th>

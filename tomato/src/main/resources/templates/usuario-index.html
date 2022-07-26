@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt" xmlns:th="http://www.thymeleaf.org">
-    <head th:replace="Layout-padrao::head(titulo='Tarefas')"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head th:replace="layout-padrao::head(titulo='Usuario')"></head>
+
 <body>
-    <header th:replace="Layout-padrao::header(titulo='Tarefas')"/></header>
+    <header th:replace="layout-padrao::header(titulo='Usuario')"></header>
+
     <h1>Usuario</h1>
     <p th:text="${mensagem}"></p>
-    <nav>
+    <nav th:fragment="acoes">
         <ul>
             <li><a href="./listar.html">Listar</a></li>
             <li><a href="./nova.html">Criar</a></li>

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt" xmlns:th="http://www.thymeleaf.org/">
-    <head>
-        <meta charset="UTF-8">
-        <title>Usuario: Nova</title>
-    </head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head th:replace="layout-padrao::head('Usuario edição')"></head>
+
     <body>
-      <html>Atividade: Nova</html>
+        <nav th:replace="usuario-index::acoes"></nav>
+     
       <form th:action="@{../editar/{id}(id=*{id})}" th:object="${usuario}" method="POST">
         <input type="hidden" th:field="*{id}"/>
         <label>Nome: <input type="text" th:field="*{nome}"/></label>
